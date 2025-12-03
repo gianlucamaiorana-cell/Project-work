@@ -1,0 +1,387 @@
+div#contenitore{
+        margin-inline: auto;
+        background: #F8FFF4;
+}
+.contenitore-logo{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+}
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    height: 90px;
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+div#testata{       
+        background-image: url(./Immagini/azienda.jpg) ;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 2px solid black;
+        max-inline-size: 100%;
+        height: 390px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.two-columns{ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+}
+.col-text {
+        padding: 20px;
+}
+.campi{
+        height: 70%;
+        max-inline-size: 125%;
+        border-radius: 10px;
+        max-width: 800px;
+        max-height: 600px;
+        min-width: 600px;
+        min-height: 400px;
+}
+.col-image{
+        max-inline-size: 100%;
+
+}
+.col-text, .col-image{
+        flex: 1 1 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+}
+.section{
+        padding-block: 80px;
+}
+p{
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        padding: 10px;
+        background: #F0F4EF;
+        border-radius: 10px;
+        border: 1px solid black;
+}
+div.contenuto{
+        padding: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        margin-top: 125px;
+}
+.wrapper-download{
+        margin-top: 150px;
+        height: auto;
+        background-color: #D6E5E3 ;
+        margin-inline: auto;
+        justify-content: center;
+        align-items: center;
+
+}
+.titolo{
+        text-align: center;
+        color: rgb(71, 71, 71);
+        font-weight: lighter;
+}
+.sottotitolo{
+        display: block;
+        color: rgb(71, 71, 71);
+        text-align: left;
+        font-size: 1.2em;
+        padding: 30px;
+}
+.altrosottotitolo{
+        display: block;
+        font-size: 1em;
+        font-weight: lighter;
+        text-align: left;
+
+}
+.two-columns-download{
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;       
+}
+.col-text-download, .col-download{
+        flex: 1 1 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 50px;
+
+
+}   
+.col-text-download{
+        gap: 20px;
+        padding: 10px;
+
+}
+.col-download{
+        text-decoration: none;
+        align-items: center;
+}
+.download{
+        display: flex;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        background-image: url(./Immagini/esterno.jpg);
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        height: 100%;
+        width: 500px;
+        padding: 20px;
+        border-radius: 5px;
+}
+.titolo-attività{
+        margin-top: 180px;
+        border: 1px dashed black;
+        background: #F8FFF4 ;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+h2.sottotitolo-attività{
+        text-align: center;
+        color:black;
+        font-weight: lighter;
+}
+.three-columns-attività{
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+}
+.col-attività-1, .col-attività-2, .col-attività-3{
+        flex: 1 1 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        min-width: 250px;
+}
+.two-columns-attività{
+        grid-template-columns: 1fr 1fr;
+        max-width: 1200px;
+}
+.two-columns-attività{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: stretch;
+        margin: 0  auto;
+}
+.col-attività-4, .col-attività-5{ 
+        flex: 1 1 45%;       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        min-height: 500px;
+        min-width: 250px;
+        width: 100%;
+}
+span{
+        font-style: normal;
+        color: black;
+        font-weight: bold;
+}
+li{
+        font-style: italic;
+}
+img.natura{
+        display: block;
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
+        height: 200px;
+        padding: auto;
+        object-fit: cover;
+        border-radius: 10px;
+}
+img.goals{
+        display: block;
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
+        height: 200px;
+        padding: auto;
+        object-fit: contain;
+        background-color: #00635D;
+        border-radius: 10px;
+}
+.wrapper-attività{
+        margin-top: 100px;
+        margin-inline: auto;
+}
+.col-attività-1, .col-attività-2, .col-attività-3, .col-attività-4, .col-attività-5{
+        max-width: 800px
+}
+.contenitore-titolo-obiettivi{
+        margin-top: 100px;
+        width: 30%;
+        background:#F8FFF4 ;
+        border: 1px dashed green;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        margin-left: auto;
+        margin-right: auto;
+        text-align: top;
+        justify-content: top;
+        align-items: top;
+}
+.contenitore-obiettivi{
+        margin-top: 100px;
+}
+.contenitore-5-obiettivi{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-inline-size: 95%;
+        gap: 35px;
+        align-items: stretch;
+        margin: 0 auto;
+        
+}
+.obiettivo-1, .obiettivo-2, .obiettivo-3, .obiettivo-4, .obiettivo-5{
+        flex: 1 1 18%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        width: 100%;
+        min-width: 275px;
+        max-width: 275px;
+        max-height: 350px;
+        margin: 0;
+}
+p.Obiettivi{
+        border: none;
+        height: 100%;
+        width: 100%;
+        color: black;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        background: #D0E1BC;
+}
+.span-obiettivi{
+        font-weight: bold ;
+        color: black
+}
+div.piedipagina{
+        margin-top: 100px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        background: #89B6A5;
+        text-align: center;
+        height: auto;
+        padding-bottom: 30px;
+}
+p.contenuto-piedipagina{
+        height: 150px;
+        border: none;
+        background-color: #89B6A5;
+        height: auto;
+}
+.Global-Compact{
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        font-size: 30px;
+        background-image: url(./Immagini/unglobal.jpg);
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        height: 100%;
+        min-width: 550px;
+        width: 550px;
+        height: 280px;
+        border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    div#contenitore {
+        width: 100%;
+        padding: 10px;
+    }
+    .contenitore-logo {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    img.logo {
+        width: 90vw;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    div#testata {
+        height: 180px;
+        font-size: 1em;
+        border-radius: 5px;
+    }
+    .two-columns, .two-columns-download, .three-columns-attività, .two-columns-attività, .contenitore-5-obiettivi {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .col-text, .col-image, .col-text-download, .col-download, .col-attività-1, .col-attività-2, .col-attività-3, .col-attività-4, .col-attività-5, .obiettivo-1, .obiettivo-2, .obiettivo-3, .obiettivo-4, .obiettivo-5 {
+        min-width: unset;
+        max-width: 100vw;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .campi, img.natura, img.goals {
+        max-width: 100vw;
+        width: 100%;
+        height: auto;
+        min-width: unset;
+        min-height: unset;
+        max-height: 200px;
+    }
+    .titolo-attività, .contenitore-titolo-obiettivi {
+        width: 95vw;
+        margin-top: 40px;
+        font-size: 1em;
+    }
+    .Global-Compact, .download {
+        width: 95vw;
+        min-width: unset;
+        height: 160px;
+        font-size: 1em;
+        padding: 10px;
+    }
+    p, p.Obiettivi, p.contenuto-piedipagina {
+        font-size: 1em;
+        padding: 8px;
+    }
+}
