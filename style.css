@@ -3,7 +3,7 @@ html{
   font-size: clamp(14px, 1.1vw, 16px);
 }
 
-
+/*div generale della pagina*/
 div#contenitore{
         margin-inline: auto;
         background: #F8FFF4;
@@ -180,20 +180,41 @@ div.contenuto{
         padding: 20px;
 
 }
-.titolo-attività{
-        margin-top: 180px;
-        border: 1px dashed black;
-        background: #F8FFF4 ;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        width: 50%;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+/*grafico a barre*/
+.grafico-barra {
+      max-width:600px;
+      margin: 150px auto;
 }
-h2.sottotitolo-attività{
+h2.section-titolo{
         text-align: center;
-        color:black;
-        font-weight: lighter;
+        color: rgb(71, 71, 71);
+        font-weight: normal;
+        font-size: 1.8em;
+        margin-bottom: 50px;
+}
+.barra {
+      margin: 10px 0;
+      background: #e0e0e0;
+      border-radius: 4px;
+      position: relative;
+      height: 30px;
+}
+.barra span {
+      display: block;
+      height: 100%;
+      background: #50ac53;
+      border-radius: 5px;
+      text-align: right;
+      color: #fff;
+      padding-right: 10px;
+      line-height: 30px;
+      font-weight: bold;
+}
+.etichetta{
+      font-size: 1.1em;
+      margin-bottom: 5px;
+      font-weight: normal;
 }
 
 /* Tabella download */
@@ -205,14 +226,6 @@ h2.sottotitolo-attività{
         text-align: center;
         margin-top: 150px;
          
-}
-h2.section-titolo{
-        text-align: center;
-        color: rgb(71, 71, 71);
-        font-weight: normal;
-        font-size: 1.8em;
-        margin-bottom: 50px;
-
 }
 
 .contenitore-tabella{
@@ -261,6 +274,23 @@ h2.section-titolo{
 
 
 /*sezione attività sostenibilità*/
+.titolo-attività{
+        margin-top: 180px;
+        border: 1px dashed black;
+        background: #F8FFF4 ;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+h2.sottotitolo-attività{
+        text-align: center;
+        color:black;
+        font-weight: lighter;
+}
+
+
 .three-columns-attività{
         margin-top: 100px;
         display: flex;
@@ -481,6 +511,21 @@ p.contenuto-piedipagina{
     margin-bottom: 24px;
     padding: 10px;
   }
+.grafico-barra {
+      width: 95vw;
+      max-width: 700px;
+      margin: 100px auto;
+}
+.etichetta {
+        font-size: 1em;
+    }
+.barra {
+        height: 25px;
+    }
+.barra span {
+        font-size: 0.9em;
+    }
+
 
   /* per tenere proporzioni */
 .campi{
@@ -512,6 +557,16 @@ p.contenuto-piedipagina{
     padding: 10px;
   }
 
+.grafico-barra {
+      width: 95vw;
+      margin: 100px auto;
+}
+.barra {
+        height: 20px;
+}
+.barra span {
+        font-size: 0.85rem;
+    }
 .Global-Compact{
     aspect-ratio: auto; 
   }
