@@ -27,6 +27,7 @@ img.logo {
     padding-bottom: 20px;
 }
 
+
 /*testata con immagine di sfondo*/
 div#testata{       
         background-image: url(./Immagini/azienda.jpg) ;
@@ -52,8 +53,7 @@ div#testata{
         justify-content: space-between;
         gap: 10px;
 }
-.campi{
-        display: block;       
+.campi{       
         width: 80%;         
         height: auto;
         border-radius: 10px;
@@ -193,7 +193,7 @@ h2.section-titolo{
 .barra {
       margin: 10px 0;
       background: #e0e0e0;
-      border-radius: 4px;
+      border-radius: 5px;
       position: relative;
       height: 30px;
 }
@@ -297,27 +297,23 @@ h2.sottotitolo-attività{
 }
 .col-attività-1, .col-attività-2, .col-attività-3{
         flex: 1 1 30%;
-        display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         min-width: 250px;
 }
-.two-columns-attività{
-        grid-template-columns: 1fr 1fr;
-        max-width: 1200px;
-}
+
 .two-columns-attività{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         gap: 50px;
+        max-width: 1200px;
         align-items: stretch;
         margin: 0  auto;
 }
 .col-attività-4, .col-attività-5{ 
         flex: 1 1 45%;       
-        display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -396,7 +392,6 @@ img.goals{
         justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 10px;
         width: 100%;
         min-width: 275px;
         max-width: 275px;
@@ -470,6 +465,11 @@ p.contenuto-piedipagina{
 .two-columns-download {
     gap: 16px;
   }
+p{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .col-text,
 .col-image,
@@ -486,6 +486,11 @@ p.contenuto-piedipagina{
     aspect-ratio: 55/28; 
     min-height: 110px;
   }
+.obiettivo-1,.obiettivo-2, .obiettivo-3, .obiettivo-4, .obiettivo-5{
+        margin-left: auto;
+        margin-right: auto;
+}
+
 }
 
 /*css per schermi max-width 768px */
@@ -509,7 +514,7 @@ p.contenuto-piedipagina{
     padding: 10px;
   }
 .grafico-barra {
-      width: 95vw;
+      width: 90vw;
       max-width: 700px;
       margin: 100px auto;
 }
@@ -526,10 +531,7 @@ p.contenuto-piedipagina{
 
   /* per tenere proporzioni */
 .campi{
-    width: 100%;
-    height: auto;
-    max-width: 700px;
-    border-radius: 10px;
+
   }
 
  
