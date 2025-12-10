@@ -3,7 +3,7 @@ html{
   font-size: clamp(14px, 1.1vw, 16px);
 }
 
-/*div generale della pagina*/
+/*contenitore generale della pagina*/
 div#contenitore{
         margin-inline: auto;
         background: #F8FFF4;
@@ -17,16 +17,15 @@ div#contenitore{
         background-color: white;
 }
 img.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: cover;
-    height: 90px;
-    width: 250px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+        height: 90px;
+        width: 250px;
+        padding-top: 20px;
+        padding-bottom: 20px;
 }
-
 
 /*testata con immagine di sfondo*/
 div#testata{       
@@ -60,12 +59,11 @@ div#testata{
 
 }
 .col-image{
-
-       width: 100%;
-       max-width: 800px;    
-       margin-left: auto;
-       margin-right: auto;
-       overflow: hidden;
+        width: 100%;
+        max-width: 800px;    
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
 
 }
 .col-text, .col-image{
@@ -76,9 +74,6 @@ div#testata{
         align-items: center;
         text-align: center;
         margin-top: 100px;
-}
-.section{
-        padding-block: 80px;
 }
 p{
         font-style: italic;
@@ -180,8 +175,8 @@ div.contenuto{
 
 /*grafico a barre*/
 .grafico-barra {
-      max-width:600px;
-      margin: 150px auto;
+        max-width:600px;
+        margin: 150px auto;
 }
 h2.section-titolo{
         text-align: center;
@@ -266,7 +261,7 @@ h2.section-titolo{
         background: #e1f7e1;;
 }
 .download-tabella tbody tr:hover{
-  background: rgb(195, 245, 201) ; /*colore evidenziazione riga al passaggio del mouse*/
+        background: rgb(195, 245, 201) ; /*colore evidenziazione riga al passaggio del mouse*/
 }
 
 
@@ -463,28 +458,28 @@ p.contenuto-piedipagina{
 @media (max-width: 1024px){
 .two-columns,
 .two-columns-download {
-    gap: 16px;
+        gap: 16px;
   }
 p{
-    width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .col-text,
 .col-image,
 .col-text-download,
 .col-download{
-    margin-top: 60px;
+        margin-top: 60px;
   }
 
 
 .download{
-    font-size: 22px;
-    padding: 16px;
-    max-width: 520px;
-    aspect-ratio: 55/28; 
-    min-height: 110px;
+        font-size: 22px;
+        padding: 16px;
+        max-width: 520px;
+        aspect-ratio: 55/28; 
+        min-height: 110px;
   }
 .obiettivo-1,.obiettivo-2, .obiettivo-3, .obiettivo-4, .obiettivo-5{
         margin-left: auto;
@@ -497,26 +492,26 @@ p{
 @media (max-width: 768px){
 .two-columns,
 .two-columns-download{
-    flex-direction: column;
-    align-items: center;
-    gap: 18px;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
 }
 
 .col-text,
 .col-image,
 .col-text-download,
 .col-download{
-    flex: 1 1 100%;
-    width: 95vw;        
-    max-width: 700px;   
-    margin-top: 48px;
-    margin-bottom: 24px;
-    padding: 10px;
+        flex: 1 1 100%;
+        width: 95vw;        
+        max-width: 700px;   
+        margin-top: 48px;
+        margin-bottom: 24px;
+        padding: 10px;
   }
 .grafico-barra {
-      width: 90vw;
-      max-width: 700px;
-      margin: 100px auto;
+        width: 90vw;
+        max-width: 700px;
+        margin: 100px auto;
 }
 .etichetta {
         font-size: 1em;
@@ -536,12 +531,12 @@ p{
 
  
 .download{
-    width: 95vw;
-    max-width: 640px;
-    aspect-ratio: auto;
-    min-height: 100px;
-    font-size: 1.05rem;
-    padding: 14px;
+        width: 95vw;
+        max-width: 640px;
+        aspect-ratio: auto;
+        min-height: 100px;
+        font-size: 1.05rem;
+        padding: 14px;
   }
 }
 
@@ -551,14 +546,14 @@ p{
 @media (max-width: 380px){
 
 .download{
-    min-height: 88px;
-    font-size: 0.95rem;
-    padding: 10px;
+        min-height: 88px;
+        font-size: 0.95rem;
+        padding: 10px;
   }
 
 .grafico-barra {
-      width: 95vw;
-      margin: 100px auto;
+        width: 95vw;
+        margin: 100px auto;
 }
 .barra {
         height: 20px;
@@ -567,12 +562,12 @@ p{
         font-size: 0.85rem;
     }
 .Global-Compact{
-    aspect-ratio: auto; 
+        aspect-ratio: auto; 
   }
 
 .col-text p{
-    font-size: 0.95rem;
-    padding: 8px;
+        font-size: 0.95rem;
+        padding: 8px;
   }
 }
 
