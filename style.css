@@ -25,24 +25,31 @@ img.logo {
         width: 250px;
         padding-top: 20px;
         padding-bottom: 20px;
+
 }
 
 /*testata con immagine di sfondo*/
-div#testata{       
-        background-image: url(./Immagini/azienda.jpg) ;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border: 2px solid black;
-        max-inline-size: 100%;
-        height: 390px;
+
+#testata {
         display: flex;
-        text-align: center;
         justify-content: center;
         align-items: center;
+        overflow: hidden; 
+        height: 500px; 
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        border: 1px solid black;
 }
+
+.img-testata {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;   
+        object-position: center;
+        display: block;
+
+}
+
 
 /*sezione con due colonne immagine e testo*/
 .two-columns{ 
